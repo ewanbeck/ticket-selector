@@ -15,6 +15,7 @@ function TicketButton(props: TicketButtonProps) {
 
   return (
     <button
+      type="button"
       className={classNames(
         'rounded-md border border-slate-400 p-3 text-left hover:cursor-pointer active:bg-blue-400',
         {
