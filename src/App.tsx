@@ -10,7 +10,7 @@ import { TicketProvider } from './hooks';
 
 function App() {
   return (
-    <div className="grid h-screen w-screen place-items-center">
+    <div className="flex h-screen w-screen items-start justify-center sm:mt-4">
       <div className="flex min-w-[22rem] flex-col gap-y-3 rounded-lg bg-slate-100 p-4">
         <TicketProvider>
           <SectionWrapper heading={TICKET_TYPE_HEADING}>
